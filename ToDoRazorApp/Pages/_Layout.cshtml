@@ -18,23 +18,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 </head>
 <body>
-
 <nav>
     <div class="nav-wrapper">
-        <a href="" class="brand-logo">Logo</a>
+        <a href="#" class="brand-logo">logo</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="">sass</a></li>
-            <li><a href="">sass <span class="new badge">4</span></a></li>
-            <li><a href="">sass</a></li>
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
         </ul>
     </div>
 </nav>
 
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2017 - ToDoRazorApp</p>
-        </footer>
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; 2017 - ToDoRazorApp</p>
+    </footer>
 
 
     <environment include="Development">
@@ -57,7 +56,7 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
-     <!-- Compiled and minified JavaScript -->
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
